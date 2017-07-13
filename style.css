@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zilla Slab', serif;
+}
+
+body {
+    background-color: #6441a5;
+}
+
+main {
+    width: 700px;
+    height: 800px;
+    margin: 0 auto;
+
+}
+
+#naming {
+    display: inline-block;
+    line-height: 80px;
+}
+
+header {
+    height: 100px;
+}
+
+header img {
+    padding-top: 10px;
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+nav {
+    margin-top: 10px;
+    height: 45px;
+}
+
+nav ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    border: 5px solid purple;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    background-color: violet;
+}
+
+nav ul li:hover {
+    background-color: orange;
+}
+
+.active {
+    background-color: pink;
+}
+
+#output {
+    margin-top: 35px;
+}
+
+.channel {
+    height: 100px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.channel:last-child {
+    border-bottom: 1px solid grey;
+}
+
+.img-house {
+    float: left;
+    width: 100px;
+    height: 100%;
+}
+
+.img-house img {
+    width: 100px;
+    height: 100px;
+}
+
+.name-house {
+    display: inline-block;
+    width: 180px;
+    height: 100%;
+    border-right: 1px solid grey;
+}
+
+.name-house h1 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.game-house {
+    float: right;
+    width: 417px;
+    height: 100%;
+}
+
+.game-house h1{
+    text-align: center;
+    line-height: 100px;
+    font-size: 16px;
+}
